@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volunteer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
+</head>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li class="logo">
+            <a href="index.html">
+                <img src="images\logo.png" alt="Logo">
+            </a>
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h1>Volunteer Sign-Up</h1>
+    <form id="volunteerForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="contact">Contact:</label>
+      <input type="text" id="contact" name="contact" required>
+      <label for="interest">Area of Interest:</label>
+      <select id="interest" name="interest" required>
+        <option value="education">Education</option>
+        <option value="health">Health</option>
+        <option value="environment">Environment</option>
+      </select>
+      <label for="availability">Availability:</label>
+      <input type="text" id="availability" name="availability" required>
+      <button type="submit">Sign Up</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 NGO. All rights reserved.</p>
+  </footer>
+</body>
+</html>
